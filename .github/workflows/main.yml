@@ -11,17 +11,17 @@ jobs:
     steps:
       - name: Pull Latest Code
         run: |
-          cd /home/ubuntu/github-action-mohd-arshal
+          cd /home/ubuntu/github-action-mohd-arshal-
           git pull origin master
 
       - name: Install Dependencies
         run: |
-          cd /home/ubuntu/github-action-mohd-arshal
+          cd /home/ubuntu/github-action-mohd-arshal-
           npm i
 
       - name: Run Tests
         run: |
-          cd /home/ubuntu/github-action-mohd-arshal
+          cd /home/ubuntu/github-action-mohd-arshal-
           npm run test
 
   cd:
